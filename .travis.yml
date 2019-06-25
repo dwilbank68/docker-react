@@ -6,4 +6,4 @@ before_install:
     - docker build -t dwilbank/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run dwilbank/docker-react npm run test -- --coverage
+    - docker run dwilbank/docker-react npm run test -- --watchAll=false
