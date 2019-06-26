@@ -11,7 +11,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-west-1"
-  name: "wilbanks-docker-react"
+  app: "wilbanks-docker-react"
   env: "WilbanksDockerReact-env"
   bucket_name: "elasticbeanstalk-us-west-1-073892902142"
   bucket_path: "wilbanks-docker-react"
